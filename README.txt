@@ -34,4 +34,5 @@ TODO
 *PORT TO WINDOWS.
 *MORE FRIENDLY GUI.
 *GUI classes clearing
-*Properly release memory at parts
+*Properly release memory at parts (do make sure you release all pointers from the GA class, and delete any 
+memory held by pointers on each class' destructor. )
